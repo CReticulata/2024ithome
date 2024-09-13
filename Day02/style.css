@@ -1,0 +1,15 @@
+button {
+  margin: 100px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+
+  margin: 100px auto 50px;
+
+  text-align: center;
+  line-height: 100px;
+
+  border: 1px solid darkgray;
+}
