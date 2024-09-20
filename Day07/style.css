@@ -1,0 +1,48 @@
+span {
+  font-size: 18px;
+}
+
+.bubble-grandparent {
+  width: 100px;
+  height: 100px;
+
+  margin: 100px auto 50px;
+
+  text-align: center;
+  line-height: 100px;
+
+  background-color: #a04747;
+  border-radius: 50%;
+  color: white;
+
+  position: relative;
+}
+
+.bubble-parent,
+.bubble-child {
+  width: 100px;
+  height: 100px;
+
+  text-align: center;
+  line-height: 100px;
+
+  background-color: #d8a25e;
+  border-radius: 50%;
+  color: black;
+}
+
+.bubble-child {
+  background-color: #eedf7a;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 200px 0 0;
+  text-align: center;
+}
+
+.container p {
+  font-size: 20px;
+
+  margin: 0;
+}
