@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>元素不可思議事件簿：Day 08</title>
+    <link rel="icon" href="https://i.imgur.com/si5jv1f.png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="bubble-grandparent" name="泡泡爺">
+      <span>泡泡爺</span>
+      <div class="bubble-parent" name="泡泡爸">
+        <span>泡泡爸</span>
+
+        <div class="bubble-child" name="泡泡子"><span>泡泡子</span></div>
+      </div>
+    </div>
+    <div class="container">
+      <p class="target">鼠輩看著泡泡們</p>
+    </div>
+
+    <script src="./01_stopPropagation.js"></script>
+  </body>
+</html>
