@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  margin: 100px;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  margin-bottom: 10px;
+}
+
+.key-down {
+  min-width: 20px;
+  height: 20px;
+  padding: 2px;
+
+  text-align: center;
+
+  border: 3px solid rgb(187, 103, 243);
+  border-radius: 3px;
+}

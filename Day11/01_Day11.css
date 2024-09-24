@@ -1,0 +1,92 @@
+.room {
+  width: 600px;
+  height: 300px;
+
+  margin: 50px auto;
+
+  border-radius: 5px;
+
+  text-align: center;
+
+  position: relative;
+}
+
+.room {
+  background-color: white;
+  border: 3px solid rgb(70, 70, 70);
+  color: black;
+}
+
+.night .room {
+  background-color: black;
+  border: 3px solid rgb(222, 222, 222);
+  color: white;
+}
+
+.hamster {
+  width: 200px;
+  height: 200px;
+
+  object-fit: cover;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  border-radius: 3px;
+}
+
+.hamster-sleep {
+  display: inline-block;
+}
+
+.hamster-awake {
+  display: none;
+}
+
+.night .hamster-sleep {
+  display: none;
+}
+
+.night .hamster-awake {
+  display: inline-block;
+}
+
+.switch {
+  width: 50px;
+  height: 25px;
+
+  margin: 0 auto;
+
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  cursor: pointer;
+
+  position: relative;
+}
+
+.switch {
+  background-color: rgb(244, 245, 179);
+}
+
+.night .switch {
+  background-color: darkorchid;
+}
+
+.indicator {
+  width: 19px;
+  height: 19px;
+
+  background-color: azure;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 50px;
+
+  transition: transform 0.3s;
+
+  position: absolute;
+  left: 0;
+}
+
+.night .indicator {
+  transform: translateX(100%);
+}
