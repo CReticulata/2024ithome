@@ -18,3 +18,7 @@ seven.addEventListener("contextmenu", (event) => {
   event.preventDefault();
 });
 seven.addEventListener("auxclick", showWarning);
+
+seven.addEventListener("mousedown", (event) => {
+  event.preventDefault();
+});
