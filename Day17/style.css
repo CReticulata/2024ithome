@@ -1,0 +1,21 @@
+.container {
+  max-width: 800px;
+  margin: 100px auto;
+}
+
+.seven {
+  opacity: 0;
+  transition: opacity 0.5s;
+
+  width: 375px;
+  display: block;
+  margin: 0 auto;
+}
+
+.seven.new {
+  opacity: 1;
+}
+
+.seven.cup {
+  width: 100%;
+}
