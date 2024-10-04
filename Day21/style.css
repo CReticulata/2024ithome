@@ -1,0 +1,68 @@
+.square {
+  width: 300px;
+  height: 300px;
+
+  margin: 100px auto 50px;
+
+  background-color: rgb(69, 69, 69);
+  border: 3px solid darkred;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+
+  position: relative;
+
+  perspective: 800px;
+}
+
+.square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  position: absolute;
+  bottom: -40px;
+
+  transform: scale(0.8);
+  transition-delay: 3s;
+}
+
+.door {
+  width: 100%;
+  height: 100%;
+
+  background-color: brown;
+
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+
+  transform-origin: right;
+  transform: rotateY(0deg);
+
+  transition: transform 2s 3s;
+
+  position: relative;
+}
+
+.handle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  background-color: yellow;
+  border: 3px solid darkred;
+
+  position: absolute;
+  top: 55%;
+  left: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 100px auto;
+
+  text-align: center;
+}
+
+.text {
+  font-size: 30px;
+}
