@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.container * {
+  vertical-align: middle;
+}
+
+.usagi {
+  position: relative;
+  top: -100%;
+}
+
+.usagi.show {
+  top: 0;
+
+  filter: drop-shadow(-10px -10px 10px #000000);
+}
