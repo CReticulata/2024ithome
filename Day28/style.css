@@ -1,0 +1,13 @@
+.container {
+  width: 600px;
+  margin: 100px auto;
+}
+
+.description {
+  display: block;
+  margin: 30px 0 0;
+}
+
+.fortune-today {
+  color: red;
+}
