@@ -1,0 +1,50 @@
+.player {
+  width: 600px;
+  margin: 100px auto;
+
+  font-size: 0;
+
+  position: relative;
+}
+
+video {
+  width: 100%;
+  max-height: calc(100% - 30px);
+}
+
+.text {
+  font-size: 30px;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  opacity: 0;
+}
+
+.text p {
+  margin: 0;
+}
+
+.video-controls {
+  background-color: black;
+  height: 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-controls button {
+  color: white;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+
+  width: 50px;
+}
